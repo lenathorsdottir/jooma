@@ -1,0 +1,80 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    https://jooma.lenaeldey.dk/
+ Description:  This child theme was built upon the parent theme Astra
+ Author:       Magdalena
+ Author URI:   https://jooma.lenaeldey.dk/
+ Template:     astra
+ Version:      1.0.5
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/ 
+
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    max-width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #BBB88B;
+    border-width: 0px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+
+.page .entry-title {
+    display: none;
+}
+
+h1 {
+    color: black;
+    font-family: 'League Script', cursive;
+    font-weight: bold; 
+}
+
+h2 {
+    color: black;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+}
+
+.site-above-footer-wrap[data-section="section-above-footer-builder"] {
+    background-color: #BBB88B;
+    max-height: 60px;
+}
+
+.site-above-footer-wrap {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+.site-primary-footer-wrap {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    display: grid;
+    background-color: #BBB88B;
+}
+
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    border-width: 0px;
+}
+
+.site-below-footer-wrap[data-section="section-below-footer-builder"] {
+    background-color: #BBB88B;
+    min-height: 50px;
+}
+
+.site-below-footer-wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
